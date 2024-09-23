@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Pitch Detection</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="PDstyles.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://kit.fontawesome.com/bae8abee0f.js" crossorigin="anonymous"></script>
+</head>
+	
+<body>
+
+    <div class="header">
+        &nbsp;
+        <br>
+        <h1>Perfect Pitch</h1>
+        <p>The Perfect Pitch, The Perfect Way</p>
+        <br>
+    </div>
+    <div class="PitchDiv">
+        <h1 class="pitchH1">Pitch Detection</h1>
+        <div class="group">
+            <p class="inline">Current pitch value</p>
+            <p class="inline" id="pitchElement"></p>
+        </div>
+        <div class="group">
+            <p class="inline">Current pitch note</p>
+            <p class="inline" id="noteElement"></p>
+        </div>
+
+        <canvas id="waveform" width="958" height="256"></canvas><br>
+
+        <div class="Volume">
+            <i class="fa fa-volume-up" style="font-size:30px"></i>
+            <div class="volumeBar">
+            </div>
+        </div>
+
+        <form class="PitchForm" action="#">
+            <label style="color:#19093c " for="lang">Visualization Type</label>
+            <select class="visSelect" name="waveTypes" id="waveType">
+                <option value="wave">Wave</option>
+                <option value="columns">Columns</option>
+                <option value="waveColumns">Wave Columns</option>
+            </select>
+        </form>
+    </div>
+    <div class="footerChords">
+    </div>
+
+</body>
+		
+	<script src="PitchDetection.js"></script>
+</html>

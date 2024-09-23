@@ -1,0 +1,73 @@
+.volumeBar {
+    display: inline-block;
+    width: -webkit-calc(100% - 60px);
+}
+.pid, .matchPid{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 20px;
+    color: #7279d4;
+    
+}
+
+canvas{
+    width:100%;
+    height: auto;
+}
+
+.PitchH1{
+  background-image:url("images/blue1.jpg");
+	background-size: cover;
+  border-radius: 40px;
+  color: #2a145d;
+  text-align: center;
+}
+.Volume{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.PitchDiv{
+  text-align: center;
+  margin: 10px;
+  margin-left:25%;
+  padding: 10px;
+  padding-top:2px;
+  border-radius: 30px;
+  width:50%;
+  background-color: #2a145d;
+  border:2px solid  #72bcd4;
+}
+
+.PitchForm{
+  padding: 5px;
+  padding-right: 10px;
+  border-style:solid;
+  text-align:center;
+	border:1px solid  #2a145d;
+	border-radius: 40px;
+	width:fit-content;
+	margin: 0px;
+	background-image:url("images/blue1.jpg");
+	background-size: cover;
+	color:white;
+
+}
+.group{
+  display: inline;
+  width: 100px;
+  padding: 10px;
+}
+
+
+.visSelect{
+  border: 2px solid #a9dff1;
+    background-color: transparent;
+    border-radius: 5px;
+}
