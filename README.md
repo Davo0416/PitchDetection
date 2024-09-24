@@ -13,5 +13,5 @@ Autocorrelation measures the similarity between a signal and a time-shifted vers
 - **τ** is the lag or time shift. </br>
 - **R(τ)** is the autocorrelation function. </br>
 #
-When 𝜏 = 0 τ=0, autocorrelation will have its maximum value because the signal is perfectly aligned with itself. As 𝜏 τ increases, the autocorrelation will fluctuate, with peaks occurring when the time-shifted 
+When τ=0, autocorrelation will have its maximum value because the signal is perfectly aligned with itself. As 𝜏 τ increases, the autocorrelation will fluctuate, with peaks occurring when the time-shifted 
 signal aligns well with the original signal (e.g., after one period of a periodic signal). Using this alignments and misalignments we are able to detect the pitch of the audio.
