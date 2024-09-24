@@ -50,7 +50,7 @@ navigator.mediaDevices.getUserMedia({
 function instantiatePids(amount, gap) {
 	var volumeBars = document.getElementsByClassName("volumeBar");
 
-	var pidWidth = (volumeBars[0].offsetWidth) / (amount) - gap;
+	var pidWidth = (volumeBars[0].offsetWidth - 0.5) / (amount) - gap;
 
 	for (let i = 0; i < amount; i++) {
 		var pid = document.createElement("div");
