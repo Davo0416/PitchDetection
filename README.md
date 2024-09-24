@@ -7,8 +7,8 @@ A Web-based pitch detection service made to be a part of a college group project
 
 # **How does it work**
 The website utilizes the autocorrelation pitch detection algorithm to calculate the pitch of the input audio.
-Autocorrelation measures the similarity between a signal and a time-shifted version of itself. It's mathematically defined as:<\br>
-**R(τ)=n∑​x(n)⋅x(n−τ)**
+Autocorrelation measures the similarity between a signal and a time-shifted version of itself. It's mathematically defined as:
+# **R(τ)=n∑​x(n)⋅x(n−τ)**
 Where: 𝑥 ( 𝑛 ) x(n) is the original signal at time index 𝑛 
 𝜏 τ is the lag or time shift. 
 𝑅 ( 𝜏 ) R(τ) is the autocorrelation function. 
